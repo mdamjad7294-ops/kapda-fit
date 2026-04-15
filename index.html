@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapda+ Fit - AI-Powered Fashion</title>
+    <meta name="description" content="Where Fashion Meets the Perfect Fit. Find your perfect ethnic wear with AI size recommendations.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/components.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="brand-logo" data-link><strong>Kapda+</strong> Fit</a>
+            <div class="nav-links" id="navLinks">
+                <a href="/" data-link>Home</a>
+                <a href="/shop" data-link>Shop</a>
+                <a href="/smart-fit" data-link>Smart Fit AI</a>
+                <a href="/custom-stitching" data-link>Custom Stitching</a>
+                <a href="/tailors" data-link>Tailor Network</a>
+                <a href="/cart" data-link class="cart-link">Cart (<span id="cart-count">0</span>)</a>
+            </div>
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"></path></svg>
+            </button>
+        </div>
+    </nav>
+
+    <main id="app">
+        <!-- Dynamic content will be injected here -->
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Kapda+ Fit</h3>
+                <p>Where Fashion Meets the Perfect Fit</p>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <a href="/shop" data-link>Shop</a>
+                <a href="/smart-fit" data-link>Smart Fit AI</a>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <a href="/custom-stitching" data-link>Custom Stitching</a>
+                <a href="/tailors" data-link>Local Tailors</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Kapda+ Fit. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>
